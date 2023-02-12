@@ -1,10 +1,11 @@
-
+import "./cartwidget.css"
 
 const Cartwidget = () => {
     return (
-        <div>
-            <button>5</button>
-        </div>
+        <div style={{ display: "flex", alignItems: "center" }}>
+        <span class="material-symbols-outlined">shopping_cart</span>
+        <p>4</p>
+      </div>
     )
 }
 
